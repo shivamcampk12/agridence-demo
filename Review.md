@@ -8,7 +8,7 @@ Well! I have done this code pretty well, All of your pretty suggestions are invi
 
 - **Postman** collection [Click Here](Agridence-assignment.postman_collection.json)
 
-- **Database** dump      [Click Here](ProjectQueries.sql) 
+- **Database** dump      [Click Here](ProjectQuries.sql) 
 
 ## Steps to run
 - 
@@ -21,5 +21,5 @@ Well! I have done this code pretty well, All of your pretty suggestions are invi
 6. Test **Application Status Check** api to check server status.
 7. Test **User Registration** api to check User registration.
 8. Login using the same user info from point number 7.
-9. Copy **accessToken** from Login API response and put it in **Current Value** of Collection variable **AuthToken** .
+9. Copy **accessToken** from Login API response and put it in **Current Value** of POSTMAN Collection variable **AuthToken** .
 10. Test remaining apis and enjoy!.
