@@ -7,7 +7,7 @@
 create table public.users
 (
     id BIGSERIAL not null primary key,
-    username varchar(255) not null,
+    username varchar(255) unique not null,
     password varchar(255) not null,
     fullname varchar(255) not null
 );

@@ -20,7 +20,7 @@ public class UserControllerTests {
     @Test
     public void testEndpoint() throws Exception {
         String queryParamValue = "";
-        String requestBodyValue = "{\"username\": \"testusername2\",\"password\": \"password\"}";
+        String requestBodyValue = "{\"username\": \"testusername\",\"password\": \"password\"}";
 
         mockMvc.perform(MockMvcRequestBuilders.post("/users/auth/login")
                 .content(requestBodyValue)
